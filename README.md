@@ -26,7 +26,10 @@ $ ngx init
 Add components to your application with [`ngx install`](https://github.com/angular-express/ngx-cli):
 
 ```bash
+# Add a custom exception handler
 $ ngx install angular-exception-handler
+
+# Add a Bootstrap compatible header with a navbar
 $ ngx install bootstrap-header
 ```
 
