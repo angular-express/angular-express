@@ -1,6 +1,6 @@
 ![AngularJS Express](http://i.imgur.com/nTj9QgN.png)
 
-## Goal
+## AngularJS Express
 
 Component driven AngularJS development using:
 
@@ -12,6 +12,7 @@ where each boilerplate:
 - provides the application directory structure
 - takes care of boilerplate specific dependencies
 - configures the build process
+- is hosted on GitHub
 - can be customized once initialized
 
 and each component:
@@ -45,21 +46,12 @@ $ ngx init
 Add components from the [ngx-components](https://github.com/ngx-components/default) directory:
 
 ```bash
-$ ngx install homepage
-$ ngx install header
-$ ngx install footer
+$ ngx install angular-exception-handler
+$ ngx install bootstrap-header
 ```
 
-Or you can install your own boilerplate:
+## Links
 
-```bash
-$ ngx init -b your-github-name/your-boilerplate-repo
-```
-
-And add your own components:
-
-```bash
-$ ngx install -b your-github-name/your-homepage-component-repo
-$ ngx install -b your-github-name/your-header-component-repo
-$ ngx install -b your-github-name/your-footer-component-repo
-```
+- [ngx-cli](https://github.com/angular-express/ngx-cli): the AngularJS Express CLI tool
+- [ngx-boilerplates](https://github.com/ngx-boilerplates): directory of official boilerplates 
+- [ngx-components](https://github.com/ngx-components): directory of official components 
