@@ -2,31 +2,11 @@
 
 ## AngularJS Express
 
-Component driven AngularJS development using:
-
-- *boilerplates* to kickstart new AngularJS projects
-- *components* to add functionality to your AngularJS applications
-
-where each boilerplate:
-
-- provides the application directory structure
-- takes care of boilerplate specific dependencies
-- configures the build process
-- is hosted on GitHub
-- can be customized once initialized
-
-and each component:
-
-- is plug-and-play
-- is reusable
-- contains its own scripts, styles, templates and documentation
-- is hosted on GitHub
-- can be customized once installed
-
-while combining best practices of:
+Component driven AngularJS development heavily inspired by:
 
 - the official [Google recommended AngularJS application structure](https://docs.google.com/document/d/1XXMvReO8-Awi1EZXAXS4PzDzdNvV6pGcuaF4Q9821Es/pub)
 - the fantastic [AngularJS styleguide](https://github.com/toddmotto/angularjs-styleguide) by [Todd Motto](http://toddmotto.com/)
+- the awesome [AngularJS application structure guidelines](https://github.com/johnpapa/angularjs-styleguide) from [John Papa](http://www.johnpapa.net/).
 - the lovely [HarpJS](http://harpjs.com) web server
 
 ## Quick example
@@ -37,13 +17,13 @@ Install AngularJS Express:
 $ npm install -g ngx-cli
 ```
 
-Create an application using the [default boilerplate](https://github.com/ngx-boilerplates/default):
+Initialize a new application with [`ngx init`](https://github.com/angular-express/ngx-cli):
 
 ```bash
 $ ngx init
 ```
 
-Add components from the [ngx-components](https://github.com/ngx-components/default) directory:
+Add components to your application with [`ngx install`](https://github.com/angular-express/ngx-cli):
 
 ```bash
 $ ngx install angular-exception-handler
