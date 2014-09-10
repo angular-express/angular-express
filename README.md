@@ -34,4 +34,18 @@ $ ngx install bootstrap-header
 
 - [ngx-cli](https://github.com/angular-express/ngx-cli): the AngularJS Express CLI tool
 - [ngx-boilerplates](https://github.com/ngx-boilerplates): directory of official boilerplates 
-- [ngx-components](https://github.com/ngx-components): directory of official components 
+- [ngx-components](https://github.com/ngx-components): directory of official components
+
+## FAQ
+
+**Why AngularJS Express?**
+
+When working with clients I often found myself setting up the same boilerplate over and over again. Fullstack boilerplates are awesome, but in reality I found myself stripping or customizing a lot of the generated boilerplate.
+
+I wanted something different that worked from the ground up: first initialize a boilerplate and then add small components on top of that.
+
+**Why not use a Yeoman generator?**
+
+I love Yeoman and use it often. However, when writing reusable components I found myself spending more time coding on the generator part than on the component part. And having to run the generator each time to see if the outcome was correct didn't really make my life easier either.
+
+So while Yeoman is great for many things, it just didn't fit the requirements for AngularJS Express.
