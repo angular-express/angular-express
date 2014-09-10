@@ -9,6 +9,8 @@ Component driven AngularJS development heavily inspired by:
 - the awesome [AngularJS application structure guidelines](https://github.com/johnpapa/angularjs-styleguide) from [John Papa](http://www.johnpapa.net/).
 - the lovely [HarpJS](http://harpjs.com) web server
 
+**Zero configuration required!**
+
 ## Quick example
 
 Install AngularJS Express:
