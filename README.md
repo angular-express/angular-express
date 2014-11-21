@@ -41,13 +41,13 @@ You could now start adding code manually or run a Yeoman generator to scaffold y
 
 AngularJS Express uses the concept of **boilerplates** to rapidly initialize entire application structures.
 
-We will talk in detail about boilerplates later. For now, lets just initialize the default boilerplate:
+We will talk in detail about boilerplates later. For now, lets just initialize the [default boilerplate](https://github.com/ngx-boilerplates/default):
 
 ```bash
 $ ngx init
 ```
 
-You now have a complete AngularJS application installed in your directory and you can start coding immediately and never look back.
+You now have the [default boilerplate](https://github.com/ngx-boilerplates/default) installed in your directory and you can start coding immediately and never look back.
 
 However, AngularJS Express also offers you the ability to add individual components to your application using [`ngx install`](https://github.com/angular-express/ngx-cli):
 
@@ -60,6 +60,9 @@ $ ngx install bootstrap-header
 
 # Add CSS padding helper classes
 $ ngx install css-padding-helper-classes
+
+# Add your own custom components directly from GitHub
+$ ngx install <github-username>/<github-repository-name>
 ```
 
 You now have a complete AngularJS application with a custom exception handler and a set of CSS helper classes.
