@@ -20,14 +20,14 @@ To make your life easy, it also comes with a CLI tool.
 
 ## Quick example
 
-First initialize the [default boilerplate](https://github.com/ngx-boilerplates/default):
+First initialize your application using the [default boilerplate](https://github.com/ngx-boilerplates/default):
 
 ```bash
 # Initialize the default boilerplate
 $ ngx init
 ```
 
-and then add some extra features to our app:
+and then add some components to your application:
 
 ```bash
 # Add a custom AngularJS exception handler
