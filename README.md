@@ -69,6 +69,8 @@ You now have a complete AngularJS application with a custom exception handler an
 
 **In less then 60 seconds... without writing any code!**
 
+![Homepage](http://i.imgur.com/dORKysf.png)
+
 ## How it works
 
 AngularJS Express consists of 2 core concepts:
