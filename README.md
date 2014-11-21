@@ -20,7 +20,30 @@ To make your life easy, it also comes with a CLI tool.
 
 ## Quick example
 
-Lets dive straight into an example!
+First initialize the [default boilerplate](https://github.com/ngx-boilerplates/default):
+
+```bash
+# Initialize the default boilerplate
+$ ngx init
+```
+
+and then add some extra features to our app:
+
+```bash
+# Add a custom AngularJS exception handler
+$ ngx install angular-exception-handler
+
+# Add CSS padding helper classes
+$ ngx install css-padding-helper-classes
+```
+
+That's it. Done!
+
+You now have a fully working AngularJS application with a custom exception handler and a set of CSS helper classes.
+
+**In less then 60 seconds... without writing any code!**
+
+## How it works
 
 First install the AngularJS Express CLI tool:
 
@@ -68,8 +91,6 @@ $ ngx install <github-username>/<github-repository-name>
 You now have a complete AngularJS application with a custom exception handler and a set of CSS helper classes.
 
 **In less then 60 seconds... without writing any code!**
-
-![Homepage](http://i.imgur.com/dORKysf.png)
 
 ## How it works
 
